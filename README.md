@@ -5,11 +5,11 @@ I devolped a REST microservice based on spring boot that list the languages used
         -Number of repos using this language
         -The list of repos using the language
 
-the application call the following endpoint in GitHub API v3 : 
+the application call the following endpoint in GitHub API v3 from the application.properties file: 
 
 https://api.github.com/search/repositories?q=created:>2020-03-04&sort=stars&order=desc&per_page=100
 
-to fetsh the last 100 rep creted from the current date : you should just passe the current date in the HTTP request. 
+to fetsh the last 100 rep created from the current date : you should just passe the current date in the HTTP request. 
 
 
 i created 3 end points :
