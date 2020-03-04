@@ -20,12 +20,12 @@ I created 3 REST endpoints :
 
 http://localhost:8080/api/trendRep
 
-2-Number of repos using a language, by passing the languge to the requst parametre "lg":  
+2-Number of repos using a language : 
 
 Example: nunmber of repos using Java language :
 http://localhost:8080/api/trendRep/nbr/searchByLang?lg=Java
 
-3-The list of repos using a language, by passing the languge to the requst parametre "lg":
+3-The list of repos using a language :
 
 Example: list of repos using Java language :
 http://localhost:8080/api/trendRep/fetch/searchByLang?lg=Java
